@@ -1,1 +1,9 @@
+// Expressões e Operadores
+let a = 10, b = 3;
 
+console.log(a+3, a-b , a / b, a * b, a ** b, a % b);
+console.log(a > b, a === b, a !== b);
+
+let media = (2 + 2 + 2)/3;
+
+console.log("Média:", media);
