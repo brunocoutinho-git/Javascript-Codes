@@ -7,13 +7,6 @@ let matriculado = true;
 console.log(nome, idade, PI, matriculado);
 console.log(typeof nome, typeof idade,typeof PI,typeof matriculado);
 
-// Funções
-function CalcMedia (n1,n2,n3) {
-    return (n1+n2+n3)/3;
-}
-
-console.log(CalcMedia(2,2,2));
-
 // Objetos
 let aluno = {
     nome: "Bruno", 
