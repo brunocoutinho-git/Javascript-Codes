@@ -1,0 +1,64 @@
+// Declaração de variáveis
+let nome = "Maria";
+let idade = 20;
+const PI = 3.14;
+let matriculado = true;
+
+console.log(nome, idade, PI, matriculado);
+console.log(typeof nome, typeof idade,typeof PI,typeof matriculado);
+
+// Expressões e Operadores
+let a = 10, b = 3;
+
+console.log(a+3, a-b , a / b, a * b, a ** b, a % b);
+console.log(a > b, a === b, a !== b);
+
+let media = (2 + 2 + 2)/3;
+
+console.log("Média:", media);
+
+// Funções
+function CalcMedia (n1,n2,n3) {
+    return (n1+n2+n3)/3;
+}
+
+console.log(CalcMedia(2,2,2));
+
+// Array
+// O índice é o apontador do elemento dentro do array, começando do 0.
+let notas = [5, 6, 7, 8];
+console.log(notas[0], notas[1], notas[2], notas[3]); // 5, 6, 7, 8
+
+// Imprimir lista
+console.log("Tamanho da lista: ", notas.length);
+
+// Último elemento
+console.log("Último elemento: ", notas[notas.length -1]);
+
+// Adicionar novo elemento no array
+notas.push(10);
+console.log(notas);
+
+// Mapear os elementos do array e dobrar o valor de cada elemento
+let dobradas = notas.map(n => n*2);
+console.log(dobradas);
+
+// Objetos
+let aluno = {
+    nome: "Bruno", 
+    idade: 29, 
+    curso: "Sistemas para Internet",
+    notas: [7, 8, 9]
+};
+console.log(aluno.nome, aluno["idade"], aluno.curso, aluno.notas);
+
+aluno.email = "bruno.mateus62@gmail.com";
+console.log(aluno);
+
+// Strings (são imutáveis)
+let frase = "Linguagem de Programação Javascript";
+console.log(frase.length);
+console.log(frase.toUpperCase(), frase.toLowerCase());
+console.log(frase.replace("Javascript", "JS"));
+console.log(frase.includes("Javascript"));
+console.log(`Curso: ${frase}`);
