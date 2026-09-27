@@ -14,25 +14,6 @@ function CalcMedia (n1,n2,n3) {
 
 console.log(CalcMedia(2,2,2));
 
-// Array
-// O índice é o apontador do elemento dentro do array, começando do 0.
-let notas = [5, 6, 7, 8];
-console.log(notas[0], notas[1], notas[2], notas[3]); // 5, 6, 7, 8
-
-// Imprimir lista
-console.log("Tamanho da lista: ", notas.length);
-
-// Último elemento
-console.log("Último elemento: ", notas[notas.length -1]);
-
-// Adicionar novo elemento no array
-notas.push(10);
-console.log(notas);
-
-// Mapear os elementos do array e dobrar o valor de cada elemento
-let dobradas = notas.map(n => n*2);
-console.log(dobradas);
-
 // Objetos
 let aluno = {
     nome: "Bruno", 
